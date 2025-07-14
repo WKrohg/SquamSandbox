@@ -1,6 +1,10 @@
-import pygame
-import random
 import sys
+try:
+    import pygame
+except ModuleNotFoundError:
+    print("Error: pygame is not installed. Run 'pip install -r requirements.txt' and try again.")
+    sys.exit(1)
+import random
 
 # Game configuration
 WIDTH, HEIGHT = 800, 600
