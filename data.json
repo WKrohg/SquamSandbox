@@ -1,0 +1,17 @@
+{
+  "projects": [
+    {
+      "id": "86dde8f1-22cb-45ff-a070-2c3bdadee5be",
+      "name": "Project A"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "62d34f9a-7c8e-4a67-bf9c-6ea56306a3ca",
+      "projectId": "86dde8f1-22cb-45ff-a070-2c3bdadee5be",
+      "title": "Task 1",
+      "start": 10,
+      "end": 12
+    }
+  ]
+}
