@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+#timeline {
+  position: relative;
+  width: 300px;
+  height: 960px; /* 24 hours * 40px */
+  border: 1px solid #333;
+  background: repeating-linear-gradient(
+    to bottom,
+    #f0f0f0,
+    #f0f0f0 39px,
+    #e0e0e0 40px
+  );
+}
+
+.task {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: #4caf50;
+  color: white;
+  padding: 2px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  cursor: move;
+}

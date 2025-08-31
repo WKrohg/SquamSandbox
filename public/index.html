@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Project Scheduler</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Project Scheduler</h1>
+
+  <section id="project-section">
+    <h2>Create Project</h2>
+    <input id="project-name" placeholder="Project name" />
+    <button id="create-project">Add Project</button>
+    <select id="project-select"></select>
+  </section>
+
+  <section id="task-section">
+    <h2>Create Task</h2>
+    <input id="task-title" placeholder="Task title" />
+    <input id="task-start" type="number" min="0" max="23" placeholder="Start hour" />
+    <input id="task-end" type="number" min="1" max="24" placeholder="End hour" />
+    <button id="create-task">Add Task</button>
+  </section>
+
+  <section id="timeline-section">
+    <h2>Timeline</h2>
+    <div id="timeline"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
